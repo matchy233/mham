@@ -1,55 +1,21 @@
 # Mobile Health and Activity Monitoring
 
-## Grading
+## Directory structure
 
-- 50% exam
-  - end of semester
-  - June 12, 2-4pm
-  - HG G5
-- 50% project
-
-## Course Contents
-
-<details>
-<summary>List of contents</summary>
-
-* 11 lectures
-  * [00. Intro](./lectures/mhealth2023-L01.pdf)
-  * [01. Mobile Health in Context](lectures/mhealth2023-L02a.pdf)
-  * [02. (Health & Activity) Sensors I](lectures/mhealth2023-L02b.pdf)
-  * [03. (Health & Activity) Sensors II](lectures/mhealth2023-L02b.pdf)
-  * 04. ...
-  * 05. ...
-  * 06. ...
-  * 07. ...
-  * 08. ...
-  * 09. ...
-  * 10. ...
-* 4 reading assignment
-  * 2 **related to exam!**
-  * 2 useful for tasks
-    * [Assignment 1: step counting](read-assn/ra1-Walking_detection_and_step_counting.pdf)
-    * Assignment 2: ...
-    * Assignment 3: ...
-    * Assignment 4: ...
-* 1 exercise ([instruction](exercise/mhealth23_exercise.pdf))
-
-</details>
-
-## Directory structures
-
-The most important subdirectory is `src`: it contains the template code provided 
+The most important subdirectory is `src`: it contains the template code provided
 by the TA and should be your **workspace**. Import that directory to Kaggle to
  start working.
 
-Contents of other subdirectories:
+## Things to notice for collaboration
 
-- `exercises`: contains exercise instructions, and reports
-- `lectures`: contains lecture slides
-- `read-assn`: contains reading assignment
-
-They just exist so that you do not need to tediously use id and pw to access
- the course contents.
+* Mind your commit message format
+  * This repo adopts the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format
+  * The commit message should be meaningful and informative (describing what you have done)
+* The `master` branch is **protected**, you **should not** (and **cannot**) push to it directly
+  * ALWAYS create a new branch for your work
+  * Make a pull request to merge your branch to `master`
+  * You need at least one approval from your teammates to merge your branch to `master`
+  * After merging, delete your branch
 
 ## Useful links
 
