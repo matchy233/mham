@@ -8,7 +8,7 @@
   - HG G5
 - 50% project
 
-## Contents
+## Course Contents
 
 - 11 lectures
   - [00. Intro](./lectures/mhealth2023-L01.pdf)
@@ -30,6 +30,21 @@
     - Assignment 3: ...
     - Assignment 4: ...
 - 1 exercise ([instruction](exercise/mhealth23_exercise.pdf))
+
+## Directory structures
+
+The most important subdirectory is `src`: it contains the template code provided 
+by the TA and should be your **workspace**. Import that directory to Kaggle to
+ start working.
+
+Contents of other subdirectories:
+
+- `exercises`: contains exercise instructions, and reports
+- `lectures`: contains lecture slides
+- `read-assn`: contains reading assignment
+
+They just exist so that you do not need to tediously use id and pw to access
+ the course contents.
 
 ## Useful links
 
