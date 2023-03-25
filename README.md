@@ -1,11 +1,5 @@
 # Mobile Health and Activity Monitoring
 
-## Directory structure
-
-The most important subdirectory is `src`: it contains the template code provided
-by the TA and should be your **workspace**. Import that directory to Kaggle to
- start working.
-
 ## Things to notice for collaboration
 
 * Mind your commit message format
@@ -16,6 +10,19 @@ by the TA and should be your **workspace**. Import that directory to Kaggle to
   * Make a pull request to merge your branch to `master`
   * You need at least one approval from your teammates to merge your branch to `master`
   * After merging, delete your branch
+
+## Working on Kaggle
+
+The following docs from Kaggle are useful. Note that Kaggle can only import
+*a certain file* instead of the whole repo from GitHub.
+
+* [Import GitHub code from GitHub to Kaggle](https://www.kaggle.com/product-feedback/221448)
+* [Save Notebooks (and commit directly) from Kaggle to GitHub](https://www.kaggle.com/product-feedback/295170)
+
+Before you import the notebooks from GitHub, always bear in mind that
+**the `master` branch is protected**. You cannot push to it directly. Thus,
+to save and sync your work on Kaggle to GitHub, it is recommended to create a
+ new branch first and make edits on that branch.
 
 ## Useful links
 
