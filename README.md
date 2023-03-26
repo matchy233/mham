@@ -2,7 +2,19 @@
 
 ## File structure
 
-```text
+```python
+/
+├── docs                           # Documents
+│   └── mhealth23_exercise.pdf     ### Exercise description
+├── img                            # Images used in this README
+├── submission                     # Notebooks and py file for submission
+│   ├── group24_pathdetection.py
+│   └── group24_stepcount.ipynb
+├── mapzurich.png
+├── example.ipynb
+├── path_detection.py              # Path detection script
+├── step_count.ipynb               # Step count notebook
+└── README.md
 ```
 
 ## Things to notice for collaboration
@@ -54,6 +66,5 @@ The **Add Data** button is located in the notebook settings (which is hidden in
 - [Course webpage](https://teaching.siplab.org/mobile_health_activity_monitoring/2023/course)
 - Kaggle competitions
   - [Task 1: Step count](https://www.kaggle.com/competitions/mobile-health-2023-step-count)
-  - Task 2: ...
   - Task 3: ...
 - [Resource GitLab link](https://gitlab.ethz.ch/siplab/mobile-health-and-activity-monitoring-2023-exercise/-/tree/main/)
