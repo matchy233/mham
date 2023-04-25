@@ -10,10 +10,14 @@
 ├── submission                     # Notebooks and py file for submission
 │   ├── group24_pathdetection.py
 │   └── group24_stepcount.ipynb
+├── task2                          # Task2 related files
+│   ├── .gitignore
+│   ├── README.md                  ### Instructions for task2 submission
+│   └── trace_postproc.py          ### Trace postprocessing script
 ├── mapzurich.png
 ├── example.ipynb
-├── path_detection.py              # Path detection script
-├── step_count.ipynb               # Step count notebook
+├── path_detection.py              # Path detection script (workspace!)
+├── step_count.ipynb               # Step count notebook (workspace)
 └── README.md
 ```
 
@@ -68,3 +72,7 @@ The **Add Data** button is located in the notebook settings (which is hidden in
   - [Task 1: Step count](https://www.kaggle.com/competitions/mobile-health-2023-step-count)
   - Task 3: ...
 - [Resource GitLab link](https://gitlab.ethz.ch/siplab/mobile-health-and-activity-monitoring-2023-exercise/-/tree/main/)
+- Polybox submission links
+  - [Task 1](https://polybox.ethz.ch/index.php/s/7dpXGqbWceT2ybe)
+  - [Task 2](https://polybox.ethz.ch/index.php/s/aJoQiMqgwtYpPAB)
+  - [Task 3](https://polybox.ethz.ch/index.php/s/Z9HGYp0hfmjTVlL)
