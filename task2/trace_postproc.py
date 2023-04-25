@@ -1,11 +1,13 @@
 # -f input path to the trace file, can be relative or absolute
 
-from Lilygo.Recording import Recording
-from Lilygo.Dataset import Dataset
-
 import os
 import sys
+
+sys.path.append('..')
+
 import argparse
+from Lilygo.Recording import Recording
+from Lilygo.Dataset import Dataset
 
 parser = argparse.ArgumentParser(description='Postprocess a trace file')
 parser.add_argument('-f', '--file', help='Path to the trace file', required=True)
