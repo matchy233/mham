@@ -47,4 +47,5 @@
 
 Currently only have a placeholder showing the format. Please update the list as you submit additional traces.
 
-* `16`: (location), (path), (activity), (posprocessed?/submitted?)
+* `16`: left wrist, path 4, run, ✅ 
+* `17`: left wrist, path 0, cycle, ✅
