@@ -48,7 +48,10 @@ to save and sync your work on Kaggle to GitHub, it is recommended to create a
 **Note**: It is not recommended to modify the notebooks in `submission` directory
 because they are used for submission. The recommended workspace notebooks are
  the ones located directly in the root directory. For subtask 1, use `step_count.ipynb`.
-For subtask 3, use `path_detection.py`.
+For subtask 3, use `path_detection.ipynb`.
+
+Note that Kaggle might automatically change the underscore (`_`) in the file name into
+ minus(`-`), which results in two almost identical files appearing on GitHub.
 
 You can also use `example.ipynb` as a starting point since it is the workspace
  provided by the TAs.
