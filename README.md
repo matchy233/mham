@@ -8,7 +8,7 @@
 │   └── mhealth23_exercise.pdf     ### Exercise description
 ├── img                            # Images used in this README
 ├── submission                     # Notebooks and py file for submission
-│   ├── group24_pathdetection.py
+│   ├── group24_pathdetection.ipynb
 │   └── group24_stepcount.ipynb
 ├── task2                          # Task2 related files
 │   ├── .gitignore
@@ -16,7 +16,7 @@
 │   └── trace_postproc.py          ### Trace postprocessing script
 ├── mapzurich.png
 ├── example.ipynb
-├── path_detection.py              # Path detection script (workspace!)
+├── path_detection.ipynb              # Path detection script (workspace!)
 ├── step_count.ipynb               # Step count notebook (workspace)
 └── README.md
 ```
@@ -48,10 +48,19 @@ to save and sync your work on Kaggle to GitHub, it is recommended to create a
 **Note**: It is not recommended to modify the notebooks in `submission` directory
 because they are used for submission. The recommended workspace notebooks are
  the ones located directly in the root directory. For subtask 1, use `step_count.ipynb`.
-For subtask 3, use `path_detection.py`.
+For subtask 3, use `path_detection.ipynb`.
+
+Note that Kaggle might automatically change the underscore (`_`) in the file name into
+ minus(`-`), which results in two almost identical files appearing on GitHub.
 
 You can also use `example.ipynb` as a starting point since it is the workspace
  provided by the TAs.
+
+In order to add data, the **Add Data** button is located in the notebook
+ settings (which is hidden in at the bottom right cornor of the page, see the
+ screenshot below).
+
+![Where to find Kaggle notebook settings](img/where-to-find-kaggle-notebook-settings.png)
 
 ### Special instructions for Subtask 1
 
@@ -60,17 +69,17 @@ After importing the notebook you wish to work on, add the
  self-recorded step count dataset) the "**pigwalk**" dataset to your Kaggle
  notebook.
 
-The **Add Data** button is located in the notebook settings (which is hidden in
- at the bottom right cornor of the page, see the screenshot below).
+### Special instructions for Subtask 3
 
-![Where to find Kaggle notebook settings](img/where-to-find-kaggle-notebook-settings.png)
+After importing the notebook you wish to work on, add the
+"**Mobile Health 2023 - Path detection Submission**" dataset and the "**mham_task2_submission**" dataset to your Kaggle  notebook.
 
 ## Useful links
 
 - [Course webpage](https://teaching.siplab.org/mobile_health_activity_monitoring/2023/course)
 - Kaggle competitions
   - [Task 1: Step count](https://www.kaggle.com/competitions/mobile-health-2023-step-count)
-  - Task 3: ...
+  - [Task 3: Path detection](https://www.kaggle.com/competitions/mobile-health-2023-path-detection)
 - [Resource GitLab link](https://gitlab.ethz.ch/siplab/mobile-health-and-activity-monitoring-2023-exercise/-/tree/main/)
 - Polybox submission links
   - [Task 1](https://polybox.ethz.ch/index.php/s/7dpXGqbWceT2ybe)
